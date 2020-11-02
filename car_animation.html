@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+    <title>Transito com semaforo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {
+            border: 0px solid #000;
+            padding: 30px;
+        }
+
+        .title {
+            padding-bottom: 20px;
+        }
+
+        .semaforo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 100px;
+        }
+
+        .carro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">Fundamentos de Computação Gráfica - Avaliação 2</h1>
+    <div class="container"></div>    
+    <script type="text/javascript" src="animation.js"></script>
+    <script>
+        draw_scenario();
+        draw_animation();
+    </script>
+</body>
+
+</html>
