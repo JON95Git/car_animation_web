@@ -418,7 +418,7 @@ function move_car2() {
         //avança uma casa
         x_car2 = x_car2 + 20
         car2.move(x_car2, y_ini_car2)
-    } else if ((x_car2 > 140 && x_car2 <= 560) || (semaphore_control2 == true && x_car2 <= 640)) {
+    } else if ((x_car2 > 140 && x_car2 <= 640) || (semaphore_control2 == true && x_car2 <= 640)) {
         //se o car já tiver ultrapassado a faixa ou se o semáforo está aberto continue andando.
         x_car2 = x_car2 + 20
         car2.move(x_car2, y_ini_car2)
